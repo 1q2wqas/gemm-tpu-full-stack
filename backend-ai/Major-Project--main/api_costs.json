@@ -1,0 +1,1696 @@
+[
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 5717,
+      "cache_hit_input": 0,
+      "output": 1318
+    },
+    "cost_USD": {
+      "base_input": 0.01000475,
+      "cache_hit_input": 0.0,
+      "output": 0.018452,
+      "total": 0.02845675
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 7663,
+      "cache_hit_input": 0,
+      "output": 1277
+    },
+    "cost_USD": {
+      "base_input": 0.013410249999999999,
+      "cache_hit_input": 0.0,
+      "output": 0.017877999999999998,
+      "total": 0.03128825
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1196
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016744000000000002,
+      "total": 0.025517450000000004
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1219
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017066,
+      "total": 0.02583945
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1492
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.020888,
+      "total": 0.02966145
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1352
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018928,
+      "total": 0.027701450000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1207
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016898,
+      "total": 0.02567145
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1263
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017682,
+      "total": 0.02645545
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 7663,
+      "cache_hit_input": 0,
+      "output": 1267
+    },
+    "cost_USD": {
+      "base_input": 0.013410249999999999,
+      "cache_hit_input": 0.0,
+      "output": 0.017737999999999997,
+      "total": 0.031148249999999995
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1588
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.022232000000000002,
+      "total": 0.031005450000000004
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 7663,
+      "cache_hit_input": 0,
+      "output": 1407
+    },
+    "cost_USD": {
+      "base_input": 0.013410249999999999,
+      "cache_hit_input": 0.0,
+      "output": 0.019698,
+      "total": 0.03310825
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1329
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018606,
+      "total": 0.02737945
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1414
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019795999999999998,
+      "total": 0.028569449999999996
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1322
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018508,
+      "total": 0.02728145
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4719,
+      "cache_hit_input": 2944,
+      "output": 1315
+    },
+    "cost_USD": {
+      "base_input": 0.00825825,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01841,
+      "total": 0.027183449999999998
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4732,
+      "cache_hit_input": 2944,
+      "output": 1319
+    },
+    "cost_USD": {
+      "base_input": 0.008281,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018466,
+      "total": 0.0272622
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1652
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.023128,
+      "total": 0.03194695
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1655
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.02317,
+      "total": 0.03198895
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1209
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016926,
+      "total": 0.025744950000000003
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1393
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019502,
+      "total": 0.028320949999999998
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1269
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017766,
+      "total": 0.026584950000000003
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 7689,
+      "cache_hit_input": 0,
+      "output": 1320
+    },
+    "cost_USD": {
+      "base_input": 0.013455749999999999,
+      "cache_hit_input": 0.0,
+      "output": 0.01848,
+      "total": 0.03193575
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1417
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019838,
+      "total": 0.02865695
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1456
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.020384,
+      "total": 0.02920295
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1314
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018396000000000003,
+      "total": 0.02721495
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1472
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.020608,
+      "total": 0.02942695
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1183
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016562,
+      "total": 0.02538095
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1262
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017668000000000003,
+      "total": 0.026486950000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1279
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017906,
+      "total": 0.026724949999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1208
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016912,
+      "total": 0.025730950000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1282
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017948,
+      "total": 0.026766949999999998
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1371
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019194,
+      "total": 0.028012950000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1318
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018452,
+      "total": 0.027270950000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1229
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017206,
+      "total": 0.026024949999999998
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1571
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.021994,
+      "total": 0.03081295
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1318
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018452,
+      "total": 0.027270950000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 7689,
+      "cache_hit_input": 0,
+      "output": 1411
+    },
+    "cost_USD": {
+      "base_input": 0.013455749999999999,
+      "cache_hit_input": 0.0,
+      "output": 0.019754,
+      "total": 0.033209749999999996
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1385
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019389999999999998,
+      "total": 0.028208949999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1405
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01967,
+      "total": 0.02848895
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1366
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019124000000000002,
+      "total": 0.02794295
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1254
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017556,
+      "total": 0.02637495
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1353
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018942,
+      "total": 0.02776095
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1378
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019292,
+      "total": 0.028110950000000003
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1577
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.022078,
+      "total": 0.03089695
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1580
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.02212,
+      "total": 0.03093895
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4745,
+      "cache_hit_input": 2944,
+      "output": 1418
+    },
+    "cost_USD": {
+      "base_input": 0.00830375,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019852,
+      "total": 0.02867095
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4772,
+      "cache_hit_input": 2944,
+      "output": 1443
+    },
+    "cost_USD": {
+      "base_input": 0.008351,
+      "cache_hit_input": 0.0005152,
+      "output": 0.020202,
+      "total": 0.029068200000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4799,
+      "cache_hit_input": 2944,
+      "output": 1418
+    },
+    "cost_USD": {
+      "base_input": 0.008398250000000001,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019852,
+      "total": 0.028765450000000005
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 7743,
+      "cache_hit_input": 0,
+      "output": 1327
+    },
+    "cost_USD": {
+      "base_input": 0.01355025,
+      "cache_hit_input": 0.0,
+      "output": 0.018578,
+      "total": 0.03212825
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4799,
+      "cache_hit_input": 2944,
+      "output": 1240
+    },
+    "cost_USD": {
+      "base_input": 0.008398250000000001,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01736,
+      "total": 0.026273450000000004
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4799,
+      "cache_hit_input": 2944,
+      "output": 1539
+    },
+    "cost_USD": {
+      "base_input": 0.008398250000000001,
+      "cache_hit_input": 0.0005152,
+      "output": 0.021546,
+      "total": 0.03045945
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4799,
+      "cache_hit_input": 2944,
+      "output": 1232
+    },
+    "cost_USD": {
+      "base_input": 0.008398250000000001,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017248,
+      "total": 0.026161450000000003
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4799,
+      "cache_hit_input": 2944,
+      "output": 1209
+    },
+    "cost_USD": {
+      "base_input": 0.008398250000000001,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016926,
+      "total": 0.02583945
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 7743,
+      "cache_hit_input": 0,
+      "output": 1504
+    },
+    "cost_USD": {
+      "base_input": 0.01355025,
+      "cache_hit_input": 0.0,
+      "output": 0.021056,
+      "total": 0.03460625
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4799,
+      "cache_hit_input": 2944,
+      "output": 1295
+    },
+    "cost_USD": {
+      "base_input": 0.008398250000000001,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01813,
+      "total": 0.027043450000000004
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4799,
+      "cache_hit_input": 2944,
+      "output": 1588
+    },
+    "cost_USD": {
+      "base_input": 0.008398250000000001,
+      "cache_hit_input": 0.0005152,
+      "output": 0.022232000000000002,
+      "total": 0.031145450000000005
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4799,
+      "cache_hit_input": 2944,
+      "output": 1374
+    },
+    "cost_USD": {
+      "base_input": 0.008398250000000001,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019236,
+      "total": 0.02814945
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1188
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016632,
+      "total": 0.025550700000000003
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1884
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.026376,
+      "total": 0.0352947
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1210
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01694,
+      "total": 0.0258587
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1214
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016996,
+      "total": 0.0259147
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1292
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018088,
+      "total": 0.0270067
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1313
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018382,
+      "total": 0.027300699999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1388
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019431999999999998,
+      "total": 0.0283507
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1340
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01876,
+      "total": 0.0276787
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1265
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01771,
+      "total": 0.026628699999999998
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1156
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016183999999999997,
+      "total": 0.0251027
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1348
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018872,
+      "total": 0.0277907
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1243
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017402,
+      "total": 0.026320700000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1373
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019222000000000003,
+      "total": 0.028140700000000005
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1444
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.020215999999999998,
+      "total": 0.0291347
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1547
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.021658,
+      "total": 0.0305767
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1407
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019698,
+      "total": 0.028616700000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1413
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019782,
+      "total": 0.028700700000000003
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1275
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01785,
+      "total": 0.0267687
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1448
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.020272000000000002,
+      "total": 0.0291907
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1313
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018382,
+      "total": 0.027300699999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1224
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017136000000000002,
+      "total": 0.0260547
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1563
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.021882,
+      "total": 0.0308007
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1465
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.02051,
+      "total": 0.029428700000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1364
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019096,
+      "total": 0.028014699999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1356
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018984,
+      "total": 0.027902700000000003
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1485
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.02079,
+      "total": 0.029708699999999998
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1625
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.02275,
+      "total": 0.0316687
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1599
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.022386,
+      "total": 0.0313047
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1181
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016534,
+      "total": 0.0254527
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1310
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01834,
+      "total": 0.027258699999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1414
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019795999999999998,
+      "total": 0.028714699999999996
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1671
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.023393999999999998,
+      "total": 0.0323127
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 2016
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.028224,
+      "total": 0.0371427
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1194
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016715999999999998,
+      "total": 0.025634699999999996
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1437
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.020117999999999997,
+      "total": 0.0290367
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1441
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.020174,
+      "total": 0.0290927
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1371
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019194,
+      "total": 0.028112699999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1370
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01918,
+      "total": 0.028098699999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1234
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017276,
+      "total": 0.0261947
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1348
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018872,
+      "total": 0.0277907
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4802,
+      "cache_hit_input": 2944,
+      "output": 1219
+    },
+    "cost_USD": {
+      "base_input": 0.0084035,
+      "cache_hit_input": 0.0005152,
+      "output": 0.017066,
+      "total": 0.0259847
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4812,
+      "cache_hit_input": 2944,
+      "output": 1265
+    },
+    "cost_USD": {
+      "base_input": 0.008421000000000001,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01771,
+      "total": 0.026646200000000002
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4822,
+      "cache_hit_input": 2944,
+      "output": 1209
+    },
+    "cost_USD": {
+      "base_input": 0.0084385,
+      "cache_hit_input": 0.0005152,
+      "output": 0.016926,
+      "total": 0.0258797
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 7766,
+      "cache_hit_input": 0,
+      "output": 1226
+    },
+    "cost_USD": {
+      "base_input": 0.0135905,
+      "cache_hit_input": 0.0,
+      "output": 0.017164000000000002,
+      "total": 0.030754500000000004
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4822,
+      "cache_hit_input": 2944,
+      "output": 1312
+    },
+    "cost_USD": {
+      "base_input": 0.0084385,
+      "cache_hit_input": 0.0005152,
+      "output": 0.018368,
+      "total": 0.027321699999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4822,
+      "cache_hit_input": 2944,
+      "output": 1386
+    },
+    "cost_USD": {
+      "base_input": 0.0084385,
+      "cache_hit_input": 0.0005152,
+      "output": 0.019404,
+      "total": 0.0283577
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4694,
+      "cache_hit_input": 3072,
+      "output": 1457
+    },
+    "cost_USD": {
+      "base_input": 0.0082145,
+      "cache_hit_input": 0.0005376,
+      "output": 0.020398,
+      "total": 0.029150099999999998
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4822,
+      "cache_hit_input": 2944,
+      "output": 1320
+    },
+    "cost_USD": {
+      "base_input": 0.0084385,
+      "cache_hit_input": 0.0005152,
+      "output": 0.01848,
+      "total": 0.0274337
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4694,
+      "cache_hit_input": 3072,
+      "output": 1194
+    },
+    "cost_USD": {
+      "base_input": 0.0082145,
+      "cache_hit_input": 0.0005376,
+      "output": 0.016715999999999998,
+      "total": 0.025468099999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4694,
+      "cache_hit_input": 3072,
+      "output": 1256
+    },
+    "cost_USD": {
+      "base_input": 0.0082145,
+      "cache_hit_input": 0.0005376,
+      "output": 0.017584,
+      "total": 0.026336099999999998
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4822,
+      "cache_hit_input": 2944,
+      "output": 1508
+    },
+    "cost_USD": {
+      "base_input": 0.0084385,
+      "cache_hit_input": 0.0005152,
+      "output": 0.021112,
+      "total": 0.0300657
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4694,
+      "cache_hit_input": 3072,
+      "output": 1227
+    },
+    "cost_USD": {
+      "base_input": 0.0082145,
+      "cache_hit_input": 0.0005376,
+      "output": 0.017178,
+      "total": 0.025930099999999998
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4694,
+      "cache_hit_input": 3072,
+      "output": 1412
+    },
+    "cost_USD": {
+      "base_input": 0.0082145,
+      "cache_hit_input": 0.0005376,
+      "output": 0.019768,
+      "total": 0.0285201
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4822,
+      "cache_hit_input": 2944,
+      "output": 1453
+    },
+    "cost_USD": {
+      "base_input": 0.0084385,
+      "cache_hit_input": 0.0005152,
+      "output": 0.020342000000000002,
+      "total": 0.0292957
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4822,
+      "cache_hit_input": 2944,
+      "output": 1690
+    },
+    "cost_USD": {
+      "base_input": 0.0084385,
+      "cache_hit_input": 0.0005152,
+      "output": 0.02366,
+      "total": 0.0326137
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4694,
+      "cache_hit_input": 3072,
+      "output": 1225
+    },
+    "cost_USD": {
+      "base_input": 0.0082145,
+      "cache_hit_input": 0.0005376,
+      "output": 0.01715,
+      "total": 0.025902099999999997
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4694,
+      "cache_hit_input": 3072,
+      "output": 1346
+    },
+    "cost_USD": {
+      "base_input": 0.0082145,
+      "cache_hit_input": 0.0005376,
+      "output": 0.018844,
+      "total": 0.0275961
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4694,
+      "cache_hit_input": 3072,
+      "output": 1188
+    },
+    "cost_USD": {
+      "base_input": 0.0082145,
+      "cache_hit_input": 0.0005376,
+      "output": 0.016632,
+      "total": 0.0253841
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4694,
+      "cache_hit_input": 3072,
+      "output": 1309
+    },
+    "cost_USD": {
+      "base_input": 0.0082145,
+      "cache_hit_input": 0.0005376,
+      "output": 0.018326000000000002,
+      "total": 0.0270781
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-11_03-50-46",
+    "tokens": {
+      "base_input": 4694,
+      "cache_hit_input": 3072,
+      "output": 1290
+    },
+    "cost_USD": {
+      "base_input": 0.0082145,
+      "cache_hit_input": 0.0005376,
+      "output": 0.01806,
+      "total": 0.0268121
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-26_18-11-23",
+    "tokens": {
+      "base_input": 4358,
+      "cache_hit_input": 0,
+      "output": 1600
+    },
+    "cost_USD": {
+      "base_input": 0.0076265,
+      "cache_hit_input": 0.0,
+      "output": 0.0224,
+      "total": 0.030026499999999998
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-26_18-15-29",
+    "tokens": {
+      "base_input": 4358,
+      "cache_hit_input": 0,
+      "output": 1373
+    },
+    "cost_USD": {
+      "base_input": 0.0076265,
+      "cache_hit_input": 0.0,
+      "output": 0.019222000000000003,
+      "total": 0.026848500000000004
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-26_18-17-15",
+    "tokens": {
+      "base_input": 7055,
+      "cache_hit_input": 0,
+      "output": 1567
+    },
+    "cost_USD": {
+      "base_input": 0.01234625,
+      "cache_hit_input": 0.0,
+      "output": 0.021938,
+      "total": 0.03428425
+    }
+  },
+  {
+    "run_id": "RUN_2026-04-26_18-19-02",
+    "tokens": {
+      "base_input": 10545,
+      "cache_hit_input": 0,
+      "output": 1229
+    },
+    "cost_USD": {
+      "base_input": 0.01845375,
+      "cache_hit_input": 0.0,
+      "output": 0.017206,
+      "total": 0.035659750000000004
+    }
+  }
+]

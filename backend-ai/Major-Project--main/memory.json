@@ -1,0 +1,849 @@
+{
+  "all_history": [
+    {
+      "run_id": "RUN_2026-04-26_18-15-29",
+      "design_name": "s1488_bench",
+      "timestamp": "2026-04-26T18:17:01.427394",
+      "success": true,
+      "metrics": {
+        "design__instance__count": 523.0,
+        "design__instance__area": 3181.8,
+        "power__internal__total": 0.0002655543794389814,
+        "power__switching__total": 0.0004201153351459652,
+        "power__leakage__total": 3.452849117735468e-09,
+        "power__total": 0.0006856731488369405,
+        "design__max_slew_violation__count": 0.0,
+        "design__max_fanout_violation__count": 0.0,
+        "design__max_cap_violation__count": 0.0,
+        "clock__skew__worst_hold": -0.2501421640623239,
+        "clock__skew__worst_setup": 0.2501421640623239,
+        "timing__hold__tns": 0.0,
+        "timing__setup__tns": 0.0,
+        "timing__hold__wns": 0.0,
+        "timing__setup__wns": 0.0,
+        "timing__hold_vio__count": 0.0,
+        "timing__setup_vio__count": 0.0,
+        "design__die__area": 8590.54,
+        "design__core__area": 5815.58,
+        "design__instance__count__stdcell": 523.0,
+        "design__instance__area__stdcell": 3181.8,
+        "design__instance__utilization": 0.547117,
+        "design__instance__utilization__stdcell": 0.547117,
+        "design__instance__count__setup_buffer": 0.0,
+        "design__instance__count__hold_buffer": 0.0,
+        "route__antenna_violation__count": 0.0,
+        "route__drc_errors": 0.0,
+        "route__wirelength": 13203.0,
+        "route__vias": 3501.0,
+        "design__lvs_error__count": 0.0
+      },
+      "metric_changes": {},
+      "json_config": {
+        "DESIGN_NAME": "s1488_bench",
+        "VERILOG_FILES": "dir::rtl/*.v",
+        "VERILOG_INCLUDE_DIRS": "dir::rtl",
+        "CLOCK_PORT": "blif_clk_net",
+        "CLOCK_NET": "blif_clk_net",
+        "CLOCK_PERIOD": 25,
+        "pdk::sky130A": {
+          "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 25
+          }
+        },
+        "SYNTH_MAX_FANOUT": 5,
+        "SYNTH_MAX_TRAN": 2.5,
+        "SYNTH_BUFFERING": 1,
+        "SYNTH_SIZING": 0,
+        "SYNTH_SHARE_RESOURCES": 1,
+        "FP_CORE_UTIL": 50,
+        "FP_ASPECT_RATIO": 1.0,
+        "FP_PDN_CORE_RING": 0,
+        "DESIGN_IS_CORE": 0,
+        "FP_SIZING": "relative",
+        "FP_TAPCELL_DIST": 14,
+        "FP_IO_MIN_DISTANCE": 3,
+        "PL_TARGET_DENSITY": 0.55,
+        "PL_TIME_DRIVEN": 1,
+        "PL_RESIZER_DESIGN_OPTIMIZATIONS": 1,
+        "CTS_TARGET_SKEW": 200,
+        "CTS_SINK_CLUSTERING_SIZE": 25,
+        "CTS_SINK_CLUSTERING_MAX_DIAMETER": 50,
+        "CTS_DISTANCE_BETWEEN_BUFFERS": 0,
+        "GLB_RT_ADJUSTMENT": 0.3,
+        "GLB_RT_ALLOW_CONGESTION": 0,
+        "GLB_RT_OVERFLOW_ITERS": 50,
+        "GLB_OPTIMIZE_MIRRORING": 1
+      }
+    },
+    {
+      "run_id": "RUN_2026-04-26_18-17-15",
+      "design_name": "s1488_bench",
+      "timestamp": "2026-04-26T18:18:48.737046",
+      "success": true,
+      "metrics": {
+        "design__instance__count": 520.0,
+        "design__instance__area": 3190.56,
+        "power__internal__total": 0.0002674789575394243,
+        "power__switching__total": 0.00041644173325039446,
+        "power__leakage__total": 3.4456890674050555e-09,
+        "power__total": 0.0006839241250418127,
+        "design__max_slew_violation__count": 0.0,
+        "design__max_fanout_violation__count": 0.0,
+        "design__max_cap_violation__count": 0.0,
+        "clock__skew__worst_hold": -0.25013242185500734,
+        "clock__skew__worst_setup": 0.25013242185500734,
+        "timing__hold__tns": 0.0,
+        "timing__setup__tns": 0.0,
+        "timing__hold__wns": 0.0,
+        "timing__setup__wns": 0.0,
+        "timing__hold_vio__count": 0.0,
+        "timing__setup_vio__count": 0.0,
+        "design__die__area": 8590.54,
+        "design__core__area": 5815.58,
+        "design__instance__count__stdcell": 520.0,
+        "design__instance__area__stdcell": 3190.56,
+        "design__instance__utilization": 0.548623,
+        "design__instance__utilization__stdcell": 0.548623,
+        "design__instance__count__setup_buffer": 0.0,
+        "design__instance__count__hold_buffer": 0.0,
+        "route__antenna_violation__count": 0.0,
+        "route__drc_errors": 0.0,
+        "route__wirelength": 12873.0,
+        "route__vias": 3407.0,
+        "design__lvs_error__count": 0.0
+      },
+      "metric_changes": {
+        "design__instance__count": {
+          "previous": 523.0,
+          "current": 520.0,
+          "absolute_change": -3.0,
+          "percentage_change": -0.5736137667304015
+        },
+        "design__instance__area": {
+          "previous": 3181.8,
+          "current": 3190.56,
+          "absolute_change": 8.759999999999764,
+          "percentage_change": 0.27531585894775795
+        },
+        "power__internal__total": {
+          "previous": 0.0002655543794389814,
+          "current": 0.0002674789575394243,
+          "absolute_change": 1.9245781004428864e-06,
+          "percentage_change": 0.7247397329725124
+        },
+        "power__switching__total": {
+          "previous": 0.0004201153351459652,
+          "current": 0.00041644173325039446,
+          "absolute_change": -3.673601895570755e-06,
+          "percentage_change": -0.8744269937907398
+        },
+        "power__leakage__total": {
+          "previous": 3.452849117735468e-09,
+          "current": 3.4456890674050555e-09,
+          "absolute_change": -7.1600503304125596e-12,
+          "percentage_change": -0.20736644105400237
+        },
+        "power__total": {
+          "previous": 0.0006856731488369405,
+          "current": 0.0006839241250418127,
+          "absolute_change": -1.7490237951278687e-06,
+          "percentage_change": -0.2550812727747347
+        },
+        "design__max_slew_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__max_fanout_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__max_cap_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "clock__skew__worst_hold": {
+          "previous": -0.2501421640623239,
+          "current": -0.25013242185500734,
+          "absolute_change": 9.742207316587592e-06,
+          "percentage_change": -0.0038946681992246147
+        },
+        "clock__skew__worst_setup": {
+          "previous": 0.2501421640623239,
+          "current": 0.25013242185500734,
+          "absolute_change": -9.742207316587592e-06,
+          "percentage_change": -0.0038946681992246147
+        },
+        "timing__hold__tns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__setup__tns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__hold__wns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__setup__wns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__hold_vio__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__setup_vio__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__die__area": {
+          "previous": 8590.54,
+          "current": 8590.54,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__core__area": {
+          "previous": 5815.58,
+          "current": 5815.58,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__instance__count__stdcell": {
+          "previous": 523.0,
+          "current": 520.0,
+          "absolute_change": -3.0,
+          "percentage_change": -0.5736137667304015
+        },
+        "design__instance__area__stdcell": {
+          "previous": 3181.8,
+          "current": 3190.56,
+          "absolute_change": 8.759999999999764,
+          "percentage_change": 0.27531585894775795
+        },
+        "design__instance__utilization": {
+          "previous": 0.547117,
+          "current": 0.548623,
+          "absolute_change": 0.0015060000000000073,
+          "percentage_change": 0.2752610501958461
+        },
+        "design__instance__utilization__stdcell": {
+          "previous": 0.547117,
+          "current": 0.548623,
+          "absolute_change": 0.0015060000000000073,
+          "percentage_change": 0.2752610501958461
+        },
+        "design__instance__count__setup_buffer": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__instance__count__hold_buffer": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "route__antenna_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "route__drc_errors": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "route__wirelength": {
+          "previous": 13203.0,
+          "current": 12873.0,
+          "absolute_change": -330.0,
+          "percentage_change": -2.499431947284708
+        },
+        "route__vias": {
+          "previous": 3501.0,
+          "current": 3407.0,
+          "absolute_change": -94.0,
+          "percentage_change": -2.68494715795487
+        },
+        "design__lvs_error__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        }
+      },
+      "json_config": {
+        "DESIGN_NAME": "s1488_bench",
+        "VERILOG_FILES": "dir::rtl/*.v",
+        "VERILOG_INCLUDE_DIRS": "dir::rtl",
+        "CLOCK_PORT": "blif_clk_net",
+        "CLOCK_NET": "blif_clk_net",
+        "CLOCK_PERIOD": 25,
+        "pdk::sky130A": {
+          "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 25
+          }
+        },
+        "SYNTH_MAX_FANOUT": 5,
+        "SYNTH_MAX_TRAN": 2.5,
+        "SYNTH_BUFFERING": 1,
+        "SYNTH_SIZING": 0,
+        "SYNTH_SHARE_RESOURCES": 1,
+        "FP_CORE_UTIL": 50,
+        "FP_ASPECT_RATIO": 1.0,
+        "FP_PDN_CORE_RING": 0,
+        "DESIGN_IS_CORE": 0,
+        "FP_SIZING": "relative",
+        "FP_TAPCELL_DIST": 14,
+        "FP_IO_MIN_DISTANCE": 3,
+        "PL_TARGET_DENSITY": 0.57,
+        "PL_TIME_DRIVEN": 1,
+        "PL_RESIZER_DESIGN_OPTIMIZATIONS": 1,
+        "CTS_TARGET_SKEW": 200,
+        "CTS_SINK_CLUSTERING_SIZE": 25,
+        "CTS_SINK_CLUSTERING_MAX_DIAMETER": 50,
+        "CTS_DISTANCE_BETWEEN_BUFFERS": 0,
+        "GLB_RT_ADJUSTMENT": 0.3,
+        "GLB_RT_ALLOW_CONGESTION": 0,
+        "GLB_RT_OVERFLOW_ITERS": 50,
+        "GLB_OPTIMIZE_MIRRORING": 1
+      }
+    },
+    {
+      "run_id": "RUN_2026-04-26_18-19-02",
+      "design_name": "s1488_bench",
+      "timestamp": "2026-04-26T18:20:33.594250",
+      "success": true,
+      "metrics": {
+        "design__instance__count": 523.0,
+        "design__instance__area": 3181.8,
+        "power__internal__total": 0.0002655543794389814,
+        "power__switching__total": 0.0004201153351459652,
+        "power__leakage__total": 3.452849117735468e-09,
+        "power__total": 0.0006856731488369405,
+        "design__max_slew_violation__count": 0.0,
+        "design__max_fanout_violation__count": 0.0,
+        "design__max_cap_violation__count": 0.0,
+        "clock__skew__worst_hold": -0.2501421640623239,
+        "clock__skew__worst_setup": 0.2501421640623239,
+        "timing__hold__tns": 0.0,
+        "timing__setup__tns": 0.0,
+        "timing__hold__wns": 0.0,
+        "timing__setup__wns": 0.0,
+        "timing__hold_vio__count": 0.0,
+        "timing__setup_vio__count": 0.0,
+        "design__die__area": 8590.54,
+        "design__core__area": 5815.58,
+        "design__instance__count__stdcell": 523.0,
+        "design__instance__area__stdcell": 3181.8,
+        "design__instance__utilization": 0.547117,
+        "design__instance__utilization__stdcell": 0.547117,
+        "design__instance__count__setup_buffer": 0.0,
+        "design__instance__count__hold_buffer": 0.0,
+        "route__antenna_violation__count": 0.0,
+        "route__drc_errors": 0.0,
+        "route__wirelength": 13203.0,
+        "route__vias": 3501.0,
+        "design__lvs_error__count": 0.0
+      },
+      "metric_changes": {
+        "design__instance__count": {
+          "previous": 520.0,
+          "current": 523.0,
+          "absolute_change": 3.0,
+          "percentage_change": 0.576923076923077
+        },
+        "design__instance__area": {
+          "previous": 3190.56,
+          "current": 3181.8,
+          "absolute_change": -8.759999999999764,
+          "percentage_change": -0.27455995185797366
+        },
+        "power__internal__total": {
+          "previous": 0.0002674789575394243,
+          "current": 0.0002655543794389814,
+          "absolute_change": -1.9245781004428864e-06,
+          "percentage_change": -0.7195250490533329
+        },
+        "power__switching__total": {
+          "previous": 0.00041644173325039446,
+          "current": 0.0004201153351459652,
+          "absolute_change": 3.673601895570755e-06,
+          "percentage_change": 0.8821406699318302
+        },
+        "power__leakage__total": {
+          "previous": 3.4456890674050555e-09,
+          "current": 3.452849117735468e-09,
+          "absolute_change": 7.1600503304125596e-12,
+          "percentage_change": 0.20779734300880448
+        },
+        "power__total": {
+          "previous": 0.0006839241250418127,
+          "current": 0.0006856731488369405,
+          "absolute_change": 1.7490237951278687e-06,
+          "percentage_change": 0.25573360129984296
+        },
+        "design__max_slew_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__max_fanout_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__max_cap_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "clock__skew__worst_hold": {
+          "previous": -0.25013242185500734,
+          "current": -0.2501421640623239,
+          "absolute_change": -9.742207316587592e-06,
+          "percentage_change": 0.003894819889536269
+        },
+        "clock__skew__worst_setup": {
+          "previous": 0.25013242185500734,
+          "current": 0.2501421640623239,
+          "absolute_change": 9.742207316587592e-06,
+          "percentage_change": 0.003894819889536269
+        },
+        "timing__hold__tns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__setup__tns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__hold__wns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__setup__wns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__hold_vio__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__setup_vio__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__die__area": {
+          "previous": 8590.54,
+          "current": 8590.54,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__core__area": {
+          "previous": 5815.58,
+          "current": 5815.58,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__instance__count__stdcell": {
+          "previous": 520.0,
+          "current": 523.0,
+          "absolute_change": 3.0,
+          "percentage_change": 0.576923076923077
+        },
+        "design__instance__area__stdcell": {
+          "previous": 3190.56,
+          "current": 3181.8,
+          "absolute_change": -8.759999999999764,
+          "percentage_change": -0.27455995185797366
+        },
+        "design__instance__utilization": {
+          "previous": 0.548623,
+          "current": 0.547117,
+          "absolute_change": -0.0015060000000000073,
+          "percentage_change": -0.27450544362886853
+        },
+        "design__instance__utilization__stdcell": {
+          "previous": 0.548623,
+          "current": 0.547117,
+          "absolute_change": -0.0015060000000000073,
+          "percentage_change": -0.27450544362886853
+        },
+        "design__instance__count__setup_buffer": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__instance__count__hold_buffer": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "route__antenna_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "route__drc_errors": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "route__wirelength": {
+          "previous": 12873.0,
+          "current": 13203.0,
+          "absolute_change": 330.0,
+          "percentage_change": 2.563505010487066
+        },
+        "route__vias": {
+          "previous": 3407.0,
+          "current": 3501.0,
+          "absolute_change": 94.0,
+          "percentage_change": 2.7590255356618725
+        },
+        "design__lvs_error__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        }
+      },
+      "json_config": {
+        "DESIGN_NAME": "s1488_bench",
+        "VERILOG_FILES": "dir::rtl/*.v",
+        "VERILOG_INCLUDE_DIRS": "dir::rtl",
+        "CLOCK_PORT": "blif_clk_net",
+        "CLOCK_NET": "blif_clk_net",
+        "CLOCK_PERIOD": 25,
+        "pdk::sky130A": {
+          "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 25
+          }
+        },
+        "SYNTH_MAX_FANOUT": 5,
+        "SYNTH_MAX_TRAN": 2.5,
+        "SYNTH_BUFFERING": 1,
+        "SYNTH_SIZING": 0,
+        "SYNTH_SHARE_RESOURCES": 1,
+        "FP_CORE_UTIL": 50,
+        "FP_ASPECT_RATIO": 1.0,
+        "FP_PDN_CORE_RING": 0,
+        "DESIGN_IS_CORE": 0,
+        "FP_SIZING": "relative",
+        "FP_TAPCELL_DIST": 14,
+        "FP_IO_MIN_DISTANCE": 3,
+        "PL_TARGET_DENSITY": 0.55,
+        "PL_TIME_DRIVEN": 1,
+        "PL_RESIZER_DESIGN_OPTIMIZATIONS": 1,
+        "CTS_TARGET_SKEW": 200,
+        "CTS_SINK_CLUSTERING_SIZE": 25,
+        "CTS_SINK_CLUSTERING_MAX_DIAMETER": 50,
+        "CTS_DISTANCE_BETWEEN_BUFFERS": 0,
+        "GLB_RT_ADJUSTMENT": 0.3,
+        "GLB_RT_ALLOW_CONGESTION": 0,
+        "GLB_RT_OVERFLOW_ITERS": 50,
+        "GLB_OPTIMIZE_MIRRORING": 1
+      }
+    },
+    {
+      "run_id": "RUN_2026-04-26_18-20-45",
+      "design_name": "s1488_bench",
+      "timestamp": "2026-04-26T18:22:34.676894",
+      "success": true,
+      "metrics": {
+        "design__instance__count": 525.0,
+        "design__instance__area": 3221.84,
+        "power__internal__total": 0.0002705854712985456,
+        "power__switching__total": 0.0004224067088216543,
+        "power__leakage__total": 3.4576566054767e-09,
+        "power__total": 0.0006929956143721938,
+        "design__max_slew_violation__count": 0.0,
+        "design__max_fanout_violation__count": 1.0,
+        "design__max_cap_violation__count": 0.0,
+        "clock__skew__worst_hold": -0.2502909617074076,
+        "clock__skew__worst_setup": 0.2502909617074076,
+        "timing__hold__tns": 0.0,
+        "timing__setup__tns": 0.0,
+        "timing__hold__wns": 0.0,
+        "timing__setup__wns": 0.0,
+        "timing__hold_vio__count": 0.0,
+        "timing__setup_vio__count": 0.0,
+        "design__die__area": 8590.54,
+        "design__core__area": 5815.58,
+        "design__instance__count__stdcell": 525.0,
+        "design__instance__area__stdcell": 3221.84,
+        "design__instance__utilization": 0.554002,
+        "design__instance__utilization__stdcell": 0.554002,
+        "design__instance__count__setup_buffer": 0.0,
+        "design__instance__count__hold_buffer": 0.0,
+        "route__antenna_violation__count": 0.0,
+        "route__drc_errors": 0.0,
+        "route__wirelength": 13034.0,
+        "route__vias": 3482.0,
+        "design__lvs_error__count": 0.0
+      },
+      "metric_changes": {
+        "design__instance__count": {
+          "previous": 523.0,
+          "current": 525.0,
+          "absolute_change": 2.0,
+          "percentage_change": 0.3824091778202677
+        },
+        "design__instance__area": {
+          "previous": 3181.8,
+          "current": 3221.84,
+          "absolute_change": 40.039999999999964,
+          "percentage_change": 1.2584071908982326
+        },
+        "power__internal__total": {
+          "previous": 0.0002655543794389814,
+          "current": 0.0002705854712985456,
+          "absolute_change": 5.031091859564185e-06,
+          "percentage_change": 1.894561810727064
+        },
+        "power__switching__total": {
+          "previous": 0.0004201153351459652,
+          "current": 0.0004224067088216543,
+          "absolute_change": 2.2913736756891012e-06,
+          "percentage_change": 0.5454153857280607
+        },
+        "power__leakage__total": {
+          "previous": 3.452849117735468e-09,
+          "current": 3.4576566054767e-09,
+          "absolute_change": 4.807487741231853e-12,
+          "percentage_change": 0.139232488223662
+        },
+        "power__total": {
+          "previous": 0.0006856731488369405,
+          "current": 0.0006929956143721938,
+          "absolute_change": 7.322465535253286e-06,
+          "percentage_change": 1.0679236233289684
+        },
+        "design__max_slew_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__max_fanout_violation__count": {
+          "previous": 0.0,
+          "current": 1.0,
+          "absolute_change": 1.0,
+          "percentage_change": 0.0
+        },
+        "design__max_cap_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "clock__skew__worst_hold": {
+          "previous": -0.2501421640623239,
+          "current": -0.2502909617074076,
+          "absolute_change": -0.00014879764508368698,
+          "percentage_change": 0.05948523138490697
+        },
+        "clock__skew__worst_setup": {
+          "previous": 0.2501421640623239,
+          "current": 0.2502909617074076,
+          "absolute_change": 0.00014879764508368698,
+          "percentage_change": 0.05948523138490697
+        },
+        "timing__hold__tns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__setup__tns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__hold__wns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__setup__wns": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__hold_vio__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "timing__setup_vio__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__die__area": {
+          "previous": 8590.54,
+          "current": 8590.54,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__core__area": {
+          "previous": 5815.58,
+          "current": 5815.58,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__instance__count__stdcell": {
+          "previous": 523.0,
+          "current": 525.0,
+          "absolute_change": 2.0,
+          "percentage_change": 0.3824091778202677
+        },
+        "design__instance__area__stdcell": {
+          "previous": 3181.8,
+          "current": 3221.84,
+          "absolute_change": 40.039999999999964,
+          "percentage_change": 1.2584071908982326
+        },
+        "design__instance__utilization": {
+          "previous": 0.547117,
+          "current": 0.554002,
+          "absolute_change": 0.00688500000000003,
+          "percentage_change": 1.2584145621503318
+        },
+        "design__instance__utilization__stdcell": {
+          "previous": 0.547117,
+          "current": 0.554002,
+          "absolute_change": 0.00688500000000003,
+          "percentage_change": 1.2584145621503318
+        },
+        "design__instance__count__setup_buffer": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "design__instance__count__hold_buffer": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "route__antenna_violation__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "route__drc_errors": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        },
+        "route__wirelength": {
+          "previous": 13203.0,
+          "current": 13034.0,
+          "absolute_change": -169.0,
+          "percentage_change": -1.2800121184579263
+        },
+        "route__vias": {
+          "previous": 3501.0,
+          "current": 3482.0,
+          "absolute_change": -19.0,
+          "percentage_change": -0.5427020851185376
+        },
+        "design__lvs_error__count": {
+          "previous": 0.0,
+          "current": 0.0,
+          "absolute_change": 0.0,
+          "percentage_change": 0.0
+        }
+      },
+      "json_config": {
+        "DESIGN_NAME": "s1488_bench",
+        "VERILOG_FILES": "dir::rtl/*.v",
+        "VERILOG_INCLUDE_DIRS": "dir::rtl",
+        "CLOCK_PORT": "blif_clk_net",
+        "CLOCK_NET": "blif_clk_net",
+        "CLOCK_PERIOD": 25,
+        "pdk::sky130A": {
+          "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 25
+          }
+        },
+        "SYNTH_MAX_FANOUT": 5,
+        "SYNTH_MAX_TRAN": 2.5,
+        "SYNTH_BUFFERING": 1,
+        "SYNTH_SIZING": 0,
+        "SYNTH_SHARE_RESOURCES": 1,
+        "FP_CORE_UTIL": 50,
+        "FP_ASPECT_RATIO": 1.0,
+        "FP_PDN_CORE_RING": 0,
+        "DESIGN_IS_CORE": 0,
+        "FP_SIZING": "relative",
+        "FP_TAPCELL_DIST": 14,
+        "FP_IO_MIN_DISTANCE": 3,
+        "PL_TARGET_DENSITY": 0.58,
+        "PL_TIME_DRIVEN": 1,
+        "PL_RESIZER_DESIGN_OPTIMIZATIONS": 1,
+        "CTS_TARGET_SKEW": 200,
+        "CTS_SINK_CLUSTERING_SIZE": 25,
+        "CTS_SINK_CLUSTERING_MAX_DIAMETER": 50,
+        "CTS_DISTANCE_BETWEEN_BUFFERS": 0,
+        "GLB_RT_ADJUSTMENT": 0.3,
+        "GLB_RT_ALLOW_CONGESTION": 0,
+        "GLB_RT_OVERFLOW_ITERS": 50,
+        "GLB_OPTIMIZE_MIRRORING": 1
+      }
+    }
+  ],
+  "invalid_counter": 0,
+  "best_run_id": "RUN_2026-04-26_18-17-15"
+}

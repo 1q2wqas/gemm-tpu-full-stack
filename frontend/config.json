@@ -1,0 +1,18 @@
+{
+  "DESIGN_NAME": "tpu_wb_periph_b",
+  "VERILOG_FILES": "dir::rtl/*.v",
+  "VERILOG_INCLUDE_DIRS": "dir::rtl",
+  "CLOCK_PORT": "wb_clk_i",
+  "CLOCK_NET": "wb_clk_i",
+  "CLOCK_PERIOD": 25,
+  "DESIGN_IS_CORE": false,
+  "FP_PDN_CORE_RING": false,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 1000 1000",
+  "FP_IO_MIN_DISTANCE": 3,
+  "pdk::sky130A": {
+    "scl::sky130_fd_sc_hd": {
+      "CLOCK_PERIOD": 25
+    }
+  }
+}

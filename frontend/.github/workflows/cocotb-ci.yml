@@ -1,0 +1,208 @@
+name: cocotb-ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+# Keep block-level sweeps separate so a failure points to the owning datapath.
+jobs:
+  core:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: |
+            requirements.txt
+
+      - name: Install simulator
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y make iverilog
+
+      - name: Install Python deps
+        run: |
+          python -m pip install -U pip
+          python -m pip install -r requirements.txt
+
+      - name: Run cocotb sweep (P=1,2,4,8)
+        working-directory: sim/owner1
+        run: |
+          make sweep_p SIM=icarus
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cocotb-artifacts
+          path: |
+            sim/owner1/results*.xml
+            sim/owner1/sim_build*
+            sim/owner1/*.log
+
+  datapath:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: |
+            requirements.txt
+
+      - name: Install simulator
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y make iverilog
+
+      - name: Install Python deps
+        run: |
+          python -m pip install -U pip
+          python -m pip install -r requirements.txt
+
+      - name: Test a_buf
+        working-directory: sim/owner2
+        run: |
+          make TOP=a_buf SIM=icarus
+
+      - name: Test b_buf
+        working-directory: sim/owner2
+        run: |
+          make TOP=b_buf SIM=icarus
+
+      - name: Test requant_relu_b
+        working-directory: sim/owner2
+        run: |
+          make TOP=requant_relu_b SIM=icarus
+
+      - name: Test maxpool2x2_b
+        working-directory: sim/owner2
+        run: |
+          make TOP=maxpool2x2_b SIM=icarus
+
+      - name: Test stream_loader_A
+        working-directory: sim/owner2
+        run: |
+          make TOP=stream_loader_A SIM=icarus
+
+      - name: Test stream_loader_B
+        working-directory: sim/owner2
+        run: |
+          make TOP=stream_loader_B SIM=icarus
+
+      - name: Sweep stream_unloader_C_b (P=1,2,4,8)
+        working-directory: sim/owner2
+        run: |
+          make sweep_p P_SWEEP_TOP=stream_unloader_C_b SIM=icarus
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cocotb-artifacts-owner2
+          path: |
+            sim/owner2/results*.xml
+            sim/owner2/sim_build*
+            sim/owner2/*.log
+
+  top:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: |
+            requirements.txt
+
+      - name: Instal simulator
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y make iverilog
+
+      - name: Install Python deps
+        run: |
+          python -m pip install -U pip
+          python -m pip install -r requirements.txt
+
+      - name: Test cfg_status_regs
+        working-directory: sim/owner3
+        run: |
+          make TOP=cfg_status_regs SIM=icarus
+
+      - name: Sweep gemm/periph/wrapper (P=1,2,4,8)
+        working-directory: sim/owner3
+        run: |
+          make sweep_p SIM=icarus
+
+      - name: Debug iverilog cfg
+        working-directory: sim/owner3
+        run: |
+          /usr/bin/iverilog -V
+          /usr/bin/iverilog -t null -s cfg_status_regs -g2012 \
+            -I${{ github.workspace }}/rtl/owner3 \
+            -I${{ github.workspace }}/rtl/include \
+            ${{ github.workspace }}/rtl/owner3/cfg_status_regs.v
+
+      - name: Unload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cocotb-artifacts-owner3
+          path: |
+            sim/owner3/results*.xml
+            sim/owner3/sim_build*
+            sim/owner3/*.log
+
+  whole-project:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: |
+            requirements.txt
+
+      - name: Install simulator
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y make iverilog
+
+      - name: Install Python deps
+        run: |
+          python -m pip install -U pip
+          python -m pip install -r requirements.txt
+
+      - name: Sweep whole project golden wrapper (P=1,2,4,8)
+        working-directory: sim/golden
+        run: |
+          make sweep_p P_SWEEP_TOPS=user_project_wrapper SIM=icarus
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cocotb-artifacts-whole-project
+          path: |
+            sim/golden/results*.xml
+            sim/golden/sim_build*
+            sim/golden/*.log

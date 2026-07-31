@@ -1,0 +1,17 @@
+*:Zone.Identifier
+
+# Windows ADS download marker
+*:Zone.Identifier
+
+# Python virtualenv（虚拟环境）
+.venv/
+__pycache__/
+*.pyc
+
+# cocotb / simulator build outputs（仿真产物）
+sim/**/sim_build/
+sim/**/results*.xml
+*.vcd
+*.fst
+*.log
+openlane_cmp/
